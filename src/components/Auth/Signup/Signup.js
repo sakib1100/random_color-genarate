@@ -100,12 +100,13 @@ const Signup = () => {
                 <div className="relative">
                     <input type={showPass ? "text" : "password"} placeholder="password" onChange={handlePasswordChange} />
                     {errors?.password && <p className="error-message">{errors.password}</p>}
-                    <p className="absolute top-3 right-5" onClick={() => setShowPass(!showPass)}>🔥</p>
+                    <p className="absolute top-3 right-5 cursor-pointer" onClick={() => setShowPass(!showPass)}>🔥</p>
                 </div>
                 <input
                     type="password"
                     placeholder="confirm password"
                     onChange={handleConfirmPasswordChange}
+                    
                 />
 
                 <button>Sign up</button>

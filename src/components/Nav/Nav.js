@@ -17,7 +17,7 @@ const Nav = () => {
             }`}
         >
             <div className="container flex flex-wrap justify-between items-center mx-auto">
-                <a href="https://flowbite.com" className="flex items-center">
+                <a href="/" className="flex items-center">
                     {navbarLogo}
                 </a>
 
